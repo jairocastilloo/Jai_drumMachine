@@ -98,8 +98,7 @@ function App() {
         <Container
           className="p-5 pt-3 border border-warning border-5"
           style={{ backgroundColor: "#97BC62" }}
-          id="drum-machine"
-          onKeyDown={playAudio}>
+          id="drum-machine">
           <h1
             id="display"
             className="mb-3 text-center text-dark fw-bold p-2 text-underline fst-italic"></h1>
