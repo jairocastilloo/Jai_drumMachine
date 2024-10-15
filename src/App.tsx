@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
 import { AudioClip } from "./types";
 import Drum from "./Drum";
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 const audioClips: AudioClip[] = [
   {
     keyTrigger: "Q",
